@@ -1,6 +1,7 @@
 @import "components/navbar.css";
 @import "components/footer.css";
 @import "components/banner.css";
+@import "components/header.css";
 
 
 /*body {
@@ -16,4 +17,27 @@
 
 .wrapper {
 	width: 100vw !important;
+	height: auto;
+}
+
+p {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 500;
+}
+
+a {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 400;
+}
+
+h2 {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 700;
+	font-size: 50px;
+	color: black;
+}
+
+.top-left {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 600;
 }

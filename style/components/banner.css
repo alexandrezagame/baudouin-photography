@@ -1,28 +1,80 @@
 .banner {
     width: 100vw;
     height: auto;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
 }
 
 h2 {
+	padding-top: 15px;
     font-size: 24px;
     font-weight: 700;
-    margin: 0 0 50px 0;
     color: white;
 }
 
 section.images {
-	padding-top: 50px;
-    transition: transform 0.5s;
+    transition: transform 0.6s;
     will-change: transform;
 }
 
 .images img {
-    width: 800px;
-    height: auto;
+    width: 650px;
+    height: 500px;
+    object-fit: cover;
+    margin: 0px 10px;
+    background-position: center;
+
+}
+
+.photo-container {
+	position: relative;
+  	text-align: center;
+  	color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  div.top-left {
+  top: 20px;
+  left: 100px;
+  }
+}
+
+.trip {
+	padding: 50px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    /*align-content: center;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.trip.one {
+	background-color: #8ea8c3;
+	width:100vw;
+}
+
+.trip.two {
+	background-color: #406e8e;
+	width:100vw;
+}
+
+.trip.three {
+	background-color: #23395b;
+	width:100vw;
+}
+
+.trip.four {
+	background-color: #102542;
+	width:100vw;
+}
+
+.trip.five {
+	background-color: #161925;
+	width:100vw;
 }
