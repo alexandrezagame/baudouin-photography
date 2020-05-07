@@ -36,10 +36,26 @@ section.images {
   left: 50px;
 }
 
-@media screen and (max-width: 1024px) {
+/*@media screen and (max-width: 1024px) {
   div.top-left {
   top: 20px;
   left: 100px;
+  }
+}*/
+
+
+@media screen and (max-width: 800px) {
+  .images img {
+  width: 100vw;
+  height: 50vh;
+  margin: 0;
+  object-fit: cover;
+  position: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .trip {
+    padding: 5px !important;
   }
 }
 
