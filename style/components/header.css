@@ -50,6 +50,11 @@ section.intro:nth-child(odd) {
 	width: 50%;
 }
 
+.pick-a-side button {
+	background-color: blue;
+	color: white;
+}
+
 @media (max-width: 800px) {
 	body {
 		font-size: 16px;

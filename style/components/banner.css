@@ -1,13 +1,24 @@
 .banner {
     width: 100vw;
     height: auto;
+    margin-top: 0 !important;
 }
 
-h2 {
-	padding-top: 15px;
-    font-size: 24px;
-    font-weight: 700;
-    color: white;
+.banner h2 {
+	padding: 25px 15px 25px 15px;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.banner.first h2 {
+  background-color: #407076;
+}
+
+.banner.second h2 {
+  background-color: #abc8c7;
 }
 
 section.images {
@@ -71,28 +82,38 @@ section.images {
 }
 
 .trip.one {
-	background-color: #8ea8c3;
+	background-color: #407076;
 	width:100vw;
 }
 
 .trip.two {
-	background-color: #406e8e;
+	background-color: #407076;
 	width:100vw;
 }
 
 .trip.three {
-	background-color: #23395b;
+	background-color: #407076;
 	width:100vw;
 }
 
 .trip.four {
-	background-color: #102542;
+	background-color: #407076;
 	width:100vw;
 }
 
 .trip.five {
-	background-color: #161925;
+	background-color: #407076;
 	width:100vw;
+}
+
+.trip.six {
+  background-color: #abc8c7;
+  width:100vw;
+}
+
+.trip.seven {
+  background-color: #abc8c7;
+  width:100vw;
 }
 
 .zoom {

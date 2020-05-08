@@ -2,6 +2,7 @@
 @import "components/footer.css";
 @import "components/banner.css";
 @import "components/header.css";
+@import "components/hide-show.css";
 
 
 /*body {
@@ -12,7 +13,6 @@
 	background-color: #000000;
 	color: white;
 }*/
-
 
 
 .wrapper {

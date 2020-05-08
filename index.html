@@ -87,26 +87,34 @@
             <p>
                 Donec massa sem, elementum et ultricies sit amet, vulputate a lacus. Aenean vestibulum pulvinar placerat. Morbi blandit turpis a tortor bibendum, vel efficitur est rhoncus. Cras porttitor ut elit non porta. Aliquam placerat sem quis hendrerit congue. Morbi massa lacus, dignissim at enim vel, sagittis malesuada odio. Donec sagittis, neque at congue pulvinar, libero nisl accumsan tellus, et mollis nibh purus sit amet nulla. Donec id tellus pulvinar elit aliquet imperdiet non tincidunt velit. Phasellus quis nibh quis lorem feugiat tincidunt non sed enim. Aliquam pretium fermentum sem, et tempor risus sollicitudin nec. Vivamus eleifend eu justo bibendum bibendum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Morbi interdum in ante eu tempus. Aenean mi nulla, faucibus non leo quis, auctor varius nibh.
             </p>
+            <div class="pick-a-side">
+            <button onclick="myFunction1()">INTERIOR</button>
+            <button onclick="myFunction2()">EXTERIOR</button>
+            </div>
         </div>
         <div class="full-image image2">
         </div>
     </section>
 
-    <div class="banner">
+
+
+<div id="myDIVexterior">
+    <div class="banner first">
+        <h2>My Travels</h2>
         <section class="images">
             <div class="trip one">
-                    <div class="zoom">
+                <!-- <div class="zoom"> -->
                 <div class="photo-container">
                     <img src="./images/ls1.jpeg">
                     <div class="top-left">Photo Title</div>
                 </div>
-                    </div>
-                    <div class="zoom">
+                <!-- </div> -->
+                <!-- <div class="zoom"> -->
                 <div class="photo-container">
                     <img src="./images/ls2.jpeg">
                     <div class="top-left">Photo Title</div>
                 </div>
-                </div>
+                <!-- </div> -->
             </div>
             <div class="trip two">
                 <div class="photo-container">
@@ -150,6 +158,40 @@
             </div>
         </section>
     </div>
+</div>
+
+<div id="myDIVinterior">
+    <div class="banner second">
+        <h2>My Work</h2>
+        <section class="images">
+            <div class="trip six">
+                <!-- <div class="zoom"> -->
+                <div class="photo-container">
+                    <img src="https://images.pexels.com/photos/3889871/pexels-photo-3889871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                    <div class="top-left">OTHER</div>
+                </div>
+                <!-- </div> -->
+                <!-- <div class="zoom"> -->
+                <div class="photo-container">
+                    <img src="https://images.pexels.com/photos/2249055/pexels-photo-2249055.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                    <div class="top-left">OTHER</div>
+                </div>
+                <!-- </div> -->
+            </div>
+            <div class="trip seven">
+                <div class="photo-container">
+                    <img src="https://images.pexels.com/photos/3554424/pexels-photo-3554424.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                    <div class="top-left">OTHER</div>
+                </div>
+                <div class="photo-container">
+                    <img src="https://images.pexels.com/photos/584399/living-room-couch-interior-room-584399.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                    <div class="top-left">OTHER</div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>  
+
     <!-- footer -->
     <div class="footer">
         <div class="footer-links">
@@ -159,10 +201,30 @@
             <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
         <div class="footer-copyright">
-            Portfolio made with <i class="fas fa-heart"></i><a href="https://github.com/alexandrezagame" target="_blank">by Alex</a>
+            Portfolio made with <i class="fas fa-heart"></i> by <a href="https://github.com/alexandrezagame" target="_blank">Alex</a>
         </div>
     </div>
 </div>
+
+<script>
+function myFunction1() {
+  var x = document.getElementById("myDIVinterior");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction2() {
+  var x = document.getElementById("myDIVexterior");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 
     <script>
     const section = document.querySelector(".images");
