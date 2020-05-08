@@ -22,7 +22,7 @@
 }
 
 section.images {
-    transition: transform 0.8s;
+    transition: transform 0.5s;
     will-change: transform;
 }
 
