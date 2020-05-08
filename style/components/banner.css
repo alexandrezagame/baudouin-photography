@@ -11,7 +11,7 @@ h2 {
 }
 
 section.images {
-    transition: transform 0.6s;
+    transition: transform 0.8s;
     will-change: transform;
 }
 
@@ -93,4 +93,17 @@ section.images {
 .trip.five {
 	background-color: #161925;
 	width:100vw;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+/*  width: 200px;
+  height: 200px;*/
+  /*margin: 0 auto;*/
+}
+
+.zoom:hover {
+  transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  padding: 50px;
+  margin: 50px;
 }
